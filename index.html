@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LLMs & MBTI Research</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="main-nav">
+            <div class="logo">
+                <i class="fas fa-brain"></i>
+                <span>MBTI</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="analysis.html"><i class="fas fa-chart-bar"></i> Analysis</a></li>
+            </ul>
+        </nav>
+
+        <!-- Header -->
+        <header class="hero">
+            <div class="hero-content">
+                <h1>Analyzing LLMs' Understanding of Human MBTI(ENFP & INTJ)<h1>
+                <p class="subtitle">Exploring whether Large Language Models can accurately interpret and respond to questions about personality types</p>
+                <a href="analysis.html" class="cta-button">View Analysis <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="hero-decoration">
+                <div class="decoration-circle circle-1"></div>
+                <div class="decoration-circle circle-2"></div>
+                <div class="decoration-circle circle-3"></div>
+            </div>
+        </header>
+
+        <!-- Top Images Section -->
+        <section class="top-images-section">
+            <div class="images-container">
+                <div class="top-image-card">
+                    <img src="images/ENFP.png" alt="Image 1">
+                </div>
+                <div class="top-image-card">
+                    <img src="images/INTJ.png" alt="Image 2">
+                </div>
+            </div>
+        </section>
+
+        <!-- Introduction Section -->
+        <section class="intro-section">
+            <div class="section-header">
+                <h2><i class="fas fa-search"></i> Research Introduction</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="intro-card">
+                <div class="intro-icon">
+                    <i class="fas fa-question-circle"></i>
+                </div>
+                <div class="intro-text">
+                    <h3>Research Questions</h3>
+                    <p>This study investigates whether LLMs can answer questions about human MBTI. The research addresses three key questions:</p>
+                    <ol>
+                        <li>Do LLMs understand MBTI?</li>
+                        <li>Could LLMs think about personalities from a human perspective?</li>
+                        <li>How accurate are the LLMs' responses about MBTI?</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="intro-card">
+                <div class="intro-icon">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <div class="intro-text">
+                    <h3>Methodology</h3>
+                    <p>The study devised 17 MBTI-related questions presented to large language models (LLMs) pretending to be people with ENFP or INTJ personality types. Responses were compiled and analyzed using Python for visualization.</p>
+                    <p><strong>Data collected from:</strong> Yi-1.5, Qwen2.5, Gemma-3</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Members Section -->
+        <section class="team-section">
+            <div class="section-header">
+                <h2><i class="fas fa-users"></i> Research Team</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="team-members">
+                <div class="member-card">
+                    <div class="member-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="member-info">
+                        <h3>Lin Ka Man</h3>
+                    </div>
+                </div>
+                <div class="member-card">
+                    <div class="member-avatar">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="member-info">
+                        <h3>FiFi Cheung</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Methodology Overview -->
+        <section class="methodology-section">
+            <div class="section-header">
+                <h2><i class="fas fa-clipboard-list"></i> Methodology Overview</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="methodology-steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Question Design</h3>
+                    <p>Created 17 MBTI-related questions covering various aspects of personality understanding</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>LLM Responses</h3>
+                    <p>LLMs pretended to be ENFP or INTJ types and answered all questions</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Data Compilation</h3>
+                    <p>Responses organized into Excel files for systematic analysis</p>
+                </div>
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Visualization</h3>
+                    <p>Python used to create bar charts and visualize response patterns</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="main-footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <i class="fas fa-brain"></i> LLMs & MBTI Research
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
